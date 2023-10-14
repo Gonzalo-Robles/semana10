@@ -1,0 +1,92 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5d1d1;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    font-size: 25px;
+    padding: 10px;
+}
+p{
+    font-size: 20px;
+    padding: 10px;
+}
+img{
+    width:350px;
+    
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.menu-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 20px;
+    justify-content: center; 
+    align-items: center; 
+}
+
+#reservas, #contacto {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+
+.menu-item {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+
+.flex-row-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+
+}
+
+.flex-row-container > .flex-row-item {
+    flex: 1 1 30%;
+    margin: 10px;
+    padding: auto;
+    height: 400px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+}
+
+.flex-row-item {
+  border: 1px solid #f76707;
+  border-radius: 10px;
+  background-color: white;
+}
